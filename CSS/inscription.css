@@ -1,0 +1,62 @@
+body{
+    background-image: url('/bg-image.avif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;    
+}
+
+.first{
+    background-color: #0cbad1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 380px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 15px;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+button{
+    width: 40%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+button:hover{
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a::after{
+    color: blue;
+}
+
+.second div p{
+    text-align: center;
+}
